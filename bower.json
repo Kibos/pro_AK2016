@@ -1,0 +1,27 @@
+{
+  "name": "pro",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Kibos <759508922@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.12.4",
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-translate": "^2.12.1",
+    "angular-translate-loader-static-files": "^2.12.1",
+    "angular-local-storage": "^0.5.0",
+    "angular-ui-router": "^0.3.1"
+  }
+}

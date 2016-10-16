@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script src="bower_components/angular/angular.min.js"></script>
+
+    <script src="bower_components/angular-translate/angular-translate.min.js"></script>
+    <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+    <!--<script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>-->
+    <script src="app/app.js"></script>
+
+</head>
+<body  ng-app="myApp">
+<div class="container" >
+    <select class="language-switching" ng-controller="LanguageSwitchingCtrl" ng-model="cur_lang"     ng-change="switching(cur_lang)">
+        <option value="en">English</option>
+        <option value="cn" selected="selected">简体中文</option>
+    </select>
+
+    <h1 T>Go back home</h1>
+    <span translate>Settings</span>
+    <h1 translate>Go back home</h1>
+    <span translate>Settings</span>
+<input placeholder="{{'Ok' | translate}}">
+
+</div>
+
+</body>
+</html>
